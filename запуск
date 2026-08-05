@@ -1,0 +1,8 @@
+python main.py                               # обычный размер доски 8 на 8
+python main.py --mode bot                    # бот, размер из файла
+python main.py --mode local --size 10            # два игрока, поле 10×10
+python main.py --size 6                             #запуск с размером 6 и выбором режима
+
+
+cd C:\Users\User\PycharmProjects\REVERSI
+python -m pytest tests/unit/test_board.py -v

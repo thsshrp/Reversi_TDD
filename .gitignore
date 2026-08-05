@@ -1,0 +1,17 @@
+# Python / Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Distribution / packaging / coverage
+.coverage
+*.egg-info/
+dist/
+build/
